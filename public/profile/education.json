@@ -1,19 +1,33 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "Aug 2018 - Aug 2022",
+            "cardTitle": "B.Eng, Mechatronics Engineering",
+            "cardSubtitle":"Universiti Malaysia Perlis, Perlis",
+            "cardDetailedText": ["Coursework: Computer Vision, AI, Embeddded System, Control System",
+                                 "CGPA: 3.02"],
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/logo-unimap.png"
             }
         },
         {
-            "title": "Apr 20XX",
+            "title": "Aug 2015 - Oct 2017",
+            "cardTitle": "Diploma, Pure Science",
+            "cardSubtitle":"Universiti Pendidikan Sultan Idris, Perak",
+            "cardDetailedText": ["Courseworks: Calculus, Physics, Biology, Chemistry, Research and Development",
+                                 "CGPA: 2.79"],
+            "icon" : {
+                "src": "images/education/logo-upsi.png"
+            }
+        },
+        {
+            "title": "Dec 2014",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "cardSubtitle":"Sekolah Menengah Teknik Alor Setar",
+            "cardDetailedText": ["SPM: 5A5B (A+,3A,A-,4B+,B)"],
+            "icon" : {
+                "src": "images/education/smtas.png"
+            }
         }
     ]
 }

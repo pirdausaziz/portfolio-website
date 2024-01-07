@@ -49,6 +49,7 @@ function Education(props) {
               <Chrono
                 hideControls
                 allowDynamicUpdate
+                scrollable={{ scrollbar: true }}
                 useReadMore={false}
                 items={data.education}
                 cardHeight={250}

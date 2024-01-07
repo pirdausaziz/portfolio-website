@@ -22,6 +22,14 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
   },
+  containerStyle: {
+    marginBottom: 25,
+    border: '5px',
+    borderColor: 'red',
+  },
+  showMoreStyle: {
+    margin: 25,
+  },
 };
 
 function About(props) {
@@ -47,16 +55,25 @@ function About(props) {
     <>
       <Header title={header} />
       <div className="section-content-container">
-        <Container>
+        <Container style={styles.containerStyle}>
           {data
             ? (
               <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
+                <Row xs={1} sm={1} md={2} lg={3} className="g-4">
+                  <Col style={styles.containerStyle}>
+                    <h1>Introduction</h1>
                     {parseIntro(data.about)}
                   </Col>
-                  <Col style={styles.introImageContainer}>
+                  {/* <Col style={styles.introImageContainer}>
                     <img src={data?.imageSource} alt="profile" />
+                  </Col> */}
+                  <Col style={styles.containerStyle}>
+                    <h1>Passion</h1>
+                    {parseIntro(data.passion)}
+                  </Col>
+                  <Col style={styles.containerStyle}>
+                    <h1>Experience</h1>
+                    {parseIntro(data.experience)}
                   </Col>
                 </Row>
               </Fade>

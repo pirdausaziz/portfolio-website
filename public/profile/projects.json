@@ -1,9 +1,52 @@
 {
     "projects" : [
         {
+            "image" : "https://www.vicorpower.com/files/live/sites/vicor/files/images/Industries/robotics/Vicor-industry-robotics-delivery-medium.jpg",
+            "title": "Autonomous Mobile Robot",
+            "bodyText": "- Develop robot software system using ROS framework. \n - Designed robot 3D model for simulation.\n - Environment mapping in real world.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/pirdausaziz/difflidarbot"
+                },
+                {
+                    "text": "Video",
+                    "href": "https://drive.google.com/file/d/1PMFhQ8lgxGaiAjKHvgPHcvGllN14VcKq/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "ROS",
+                "Linux/Ubuntu 18",
+                "Python",
+                "Raspberry Pi"
+            ]
+        },
+        {
+            "image" : "images/projects/qrcode-project.jpg",
+            "title": "Dynamic QR Code Attendance and Firebase Database System",
+            "bodyText": "- Develop attendance system by scanning QR code. The QR code will change dynamically to prevent QR code sharing.\n - Students have personal profile to access their attendance and records using Android App.\n - Teacher can access student record saved in Firebase Database by using Python script.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/pirdausaziz/QR-Code-and-Cloud-Database-Attendance-Recording"
+                },
+                {
+                    "text": "Video",
+                    "href": "https://drive.google.com/file/d/1HAYwQ_7SkyWMTGe4Zeslim4pJxgVOQUM/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Android",
+                "Firebase",
+                "IoT",
+                "Raspberry Pi"
+            ]
+        },
+        {
             "image" : "images/projects/portfolio-poster.png",
             "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "bodyText": "- Developer Portfolio Website made in React\n - Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
             "links": [
                 {
                     "text": "GitHub",

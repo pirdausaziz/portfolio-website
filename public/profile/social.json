@@ -2,15 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/pirdaus-abdul-aziz-5ab4a81aa/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/pirdausaziz"
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "pirdausaziz@gmail.com"
         }
     ]
 }
