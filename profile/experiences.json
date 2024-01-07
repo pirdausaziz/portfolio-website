@@ -1,0 +1,24 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "subtitle": "Motorola Solutions",
+            "workType": "Temporary Worker",
+            "workDescription": [
+                "Solving software bugs by using debugging process.",
+                "Developed automation script for testing software performance."
+            ],
+            "dateText": "12/2022 – 12/2023"
+        },
+        {
+            "title": "Data Scientist",
+            "subtitle": "Universiti Malaysia Perlis",
+            "workType": "Internship",
+            "workDescription": [
+                "Developed machine learning technique using Python and Scikit-learn module.",
+                "Discovered multiple tools to filter and visualize data for cleaning."
+            ],
+            "dateText": "08/2021 – 10/2021"
+        }
+    ]
+}

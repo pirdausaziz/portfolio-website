@@ -1,0 +1,16 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/pirdaus-abdul-aziz-5ab4a81aa/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/pirdausaziz"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:pirdausazizl@gmail.com"
+        }
+    ]
+}
