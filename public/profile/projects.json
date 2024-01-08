@@ -1,6 +1,28 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/qrcode-project.jpg",
+            "title": "Dynamic QR Code Attendance and Firebase Database System",
+            "bodyText": "- Develop attendance system by scanning QR code. The QR code will change dynamically to prevent QR code sharing.\n - Students have personal profile to access their attendance and records using Android App.\n - Teacher can access student record saved in Firebase Database by using Python script.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/pirdausaziz/QR-Code-and-Cloud-Database-Attendance-Recording"
+                },
+                {
+                    "text": "Video",
+                    "href": "https://drive.google.com/file/d/1HAYwQ_7SkyWMTGe4Zeslim4pJxgVOQUM/view?usp=sharing"
+                }
+            ],
+            "tags" : [
+                "Python",
+                "Android",
+                "Firebase",
+                "IoT",
+                "Raspberry Pi"
+            ]
+        },
+        {
             "image" : "https://www.vicorpower.com/files/live/sites/vicor/files/images/Industries/robotics/Vicor-industry-robotics-delivery-medium.jpg",
             "title": "Autonomous Mobile Robot",
             "bodyText": "- Develop robot software system using ROS framework. \n - Designed robot 3D model for simulation.\n - Enviroment mapping in real life. Check out the video.",
@@ -22,26 +44,42 @@
             ]
         },
         {
-            "image" : "images/projects/qrcode-project.jpg",
-            "title": "Dynamic QR Code Attendance and Firebase Database System",
-            "bodyText": "- Develop attendance system by scanning QR code. The QR code will change dynamically to prevent QR code sharing.\n - Students have personal profile to access their attendance and records using Android App.\n - Teacher can access student record saved in Firebase Database by using Python script.",
+            "image" : "images/projects/todolist.jpg",
+            "title": "Todo List App",
+            "bodyText": "- Simple Todo List App that can add, read and delete list in the app.\n - Using GET and POST method to send request to API.\n - The design includes button, text input and checkmark for client to send request to the API",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/pirdausaziz/QR-Code-and-Cloud-Database-Attendance-Recording"
-                },
-                {
-                    "text": "Video",
-                    "href": "https://drive.google.com/file/d/1HAYwQ_7SkyWMTGe4Zeslim4pJxgVOQUM/view?usp=sharing"
+                    "href": "https://github.com/pirdausaziz/Todo-List-EJS"
                 }
             ],
             "tags" : [
+                "JavaScript",
+                "CSS",
+                "Express JS",
+                "API"
+            ]
+        },
+        {
+            "title": "AI Data Classifier",
+            "bodyText": "- Using stochastic gradient descent learning method to classify unlabelled data with feature.\n - Split data into train and test. Compute classifier algorithm using train dataset.\n - Review AI performance by using statistical tools.",
+            "tags" : [
                 "Python",
-                "Android",
-                "Firebase",
-                "IoT",
-                "Raspberry Pi"
+                "Google Colab",
+                "AI",
+                "Statistic"
+            ]
+        },
+        {
+            "title": "Computer Vision Classifier",
+            "bodyText": "- Image processing technique and machine learning to classify knife and spoon.\n - Using image processing technique such as thresholding, morphological operation and edge detection.\n - Then feature is extracted and feed to the machine learning algorithm such as K-Means and Minimum Distance Classifier",
+            "tags" : [
+                "Matlab",
+                "Machine Learning",
+                "Computer Vision",
+                "Image Processing"
             ]
         }
+        
     ]
 }
